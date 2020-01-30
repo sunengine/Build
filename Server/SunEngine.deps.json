@@ -22,11 +22,11 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "SunEngine/2.4.4": {
+      "SunEngine/2.5.0": {
         "dependencies": {
           "Flurl": "2.8.2",
           "SunEngine.Admin": "1.0.0",
-          "SunEngine.Core": "2.4.4",
+          "SunEngine.Core": "2.5.0",
           "SunEngine.DataSeed": "1.0.0",
           "SunEngine.Migrations": "1.0.0",
           "System.Linq": "4.3.0",
@@ -2365,7 +2365,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "NJsonSchema": "10.1.4",
-          "SunEngine.Core": "2.4.4",
+          "SunEngine.Core": "2.5.0",
           "System.Runtime.Caching": "4.7.0"
         },
         "runtime": {
@@ -2375,7 +2375,7 @@
           "SunEngine.Admin.dll": {}
         }
       },
-      "SunEngine.Core/2.4.4": {
+      "SunEngine.Core/2.5.0": {
         "dependencies": {
           "Flurl": "2.8.2",
           "HtmlSanitizer": "4.0.217",
@@ -2409,7 +2409,7 @@
           "Microsoft.Extensions.Configuration.Json": "3.1.1",
           "NJsonSchema": "10.1.4",
           "Npgsql": "4.1.2",
-          "SunEngine.Core": "2.4.4",
+          "SunEngine.Core": "2.5.0",
           "linq2db": "2.9.5",
           "linq2db.Identity": "2.0.1"
         },
@@ -2428,7 +2428,7 @@
           "FluentMigrator.Runner.Postgres": "3.2.1",
           "Microsoft.Extensions.Configuration.Json": "3.1.1",
           "Npgsql": "4.1.2",
-          "SunEngine.Core": "2.4.4"
+          "SunEngine.Core": "2.5.0"
         },
         "runtime": {
           "SunEngine.Migrations.dll": {}
@@ -4018,7 +4018,7 @@
     }
   },
   "libraries": {
-    "SunEngine/2.4.4": {
+    "SunEngine/2.5.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -5414,7 +5414,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SunEngine.Core/2.4.4": {
+    "SunEngine.Core/2.5.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
