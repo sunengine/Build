@@ -22,11 +22,11 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "SunEngine/2.5.1": {
+      "SunEngine/2.6.1": {
         "dependencies": {
           "Flurl": "2.8.2",
           "SunEngine.Admin": "1.0.0",
-          "SunEngine.Core": "2.5.1",
+          "SunEngine.Core": "2.6.1",
           "SunEngine.DataSeed": "1.0.0",
           "SunEngine.Migrations": "1.0.0",
           "System.Linq": "4.3.0",
@@ -646,7 +646,7 @@
           "lib/netstandard2.0/HtmlSanitizer.dll": {}
         }
       },
-      "linq2db/2.9.5": {
+      "linq2db/2.9.6": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.5.0",
           "System.Data.DataSetExtensions": "4.5.0",
@@ -654,8 +654,8 @@
         },
         "runtime": {
           "lib/netcoreapp2.0/linq2db.dll": {
-            "assemblyVersion": "2.9.5.0",
-            "fileVersion": "2.9.5.0"
+            "assemblyVersion": "2.9.6.0",
+            "fileVersion": "2.9.6.0"
           }
         },
         "compile": {
@@ -667,7 +667,7 @@
           "Microsoft.AspNetCore.Identity": "2.1.2",
           "Microsoft.Extensions.DependencyInjection": "3.1.1",
           "Microsoft.Extensions.Identity.Stores": "2.1.2",
-          "linq2db": "2.9.5"
+          "linq2db": "2.9.6"
         },
         "runtime": {
           "lib/netcoreapp2.0/LinqToDB.Identity.dll": {
@@ -1417,29 +1417,29 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "NJsonSchema/10.1.4": {
+      "NJsonSchema/10.1.5": {
         "dependencies": {
           "Namotion.Reflection": "1.0.8",
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/NJsonSchema.dll": {
-            "assemblyVersion": "10.1.4.0",
-            "fileVersion": "10.1.4.0"
+            "assemblyVersion": "10.1.5.0",
+            "fileVersion": "10.1.5.0"
           }
         },
         "compile": {
           "lib/netstandard2.0/NJsonSchema.dll": {}
         }
       },
-      "Npgsql/4.1.2": {
+      "Npgsql/4.1.3": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "runtime": {
           "lib/netcoreapp3.0/Npgsql.dll": {
-            "assemblyVersion": "4.1.2.0",
-            "fileVersion": "4.1.2.0"
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.1.3.0"
           }
         },
         "compile": {
@@ -2364,8 +2364,8 @@
       "SunEngine.Admin/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Hosting": "2.2.7",
-          "NJsonSchema": "10.1.4",
-          "SunEngine.Core": "2.5.1",
+          "NJsonSchema": "10.1.5",
+          "SunEngine.Core": "2.6.1",
           "System.Runtime.Caching": "4.7.0"
         },
         "runtime": {
@@ -2375,7 +2375,7 @@
           "SunEngine.Admin.dll": {}
         }
       },
-      "SunEngine.Core/2.5.1": {
+      "SunEngine.Core/2.6.1": {
         "dependencies": {
           "Flurl": "2.8.2",
           "HtmlSanitizer": "4.0.217",
@@ -2386,15 +2386,15 @@
           "Microsoft.Extensions.Identity.Core": "3.1.1",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "3.1.1",
           "Microsoft.IdentityModel.Tokens": "5.6.0",
-          "NJsonSchema": "10.1.4",
-          "Npgsql": "4.1.2",
+          "NJsonSchema": "10.1.5",
+          "Npgsql": "4.1.3",
           "SixLabors.Fonts": "1.0.0-beta0009",
           "SixLabors.ImageSharp": "1.0.0-beta0007",
           "SixLabors.ImageSharp.Drawing": "1.0.0-beta0007",
           "System.IdentityModel.Tokens.Jwt": "5.6.0",
           "System.Runtime.Caching": "4.7.0",
           "UAParser": "3.1.43",
-          "linq2db": "2.9.5",
+          "linq2db": "2.9.6",
           "linq2db.Identity": "2.0.1"
         },
         "runtime": {
@@ -2407,10 +2407,10 @@
       "SunEngine.DataSeed/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Json": "3.1.1",
-          "NJsonSchema": "10.1.4",
-          "Npgsql": "4.1.2",
-          "SunEngine.Core": "2.5.1",
-          "linq2db": "2.9.5",
+          "NJsonSchema": "10.1.5",
+          "Npgsql": "4.1.3",
+          "SunEngine.Core": "2.6.1",
+          "linq2db": "2.9.6",
           "linq2db.Identity": "2.0.1"
         },
         "runtime": {
@@ -2427,8 +2427,8 @@
           "FluentMigrator.Runner.Core": "3.2.1",
           "FluentMigrator.Runner.Postgres": "3.2.1",
           "Microsoft.Extensions.Configuration.Json": "3.1.1",
-          "Npgsql": "4.1.2",
-          "SunEngine.Core": "2.5.1"
+          "Npgsql": "4.1.3",
+          "SunEngine.Core": "2.6.1"
         },
         "runtime": {
           "SunEngine.Migrations.dll": {}
@@ -4018,7 +4018,7 @@
     }
   },
   "libraries": {
-    "SunEngine/2.5.1": {
+    "SunEngine/2.6.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -4170,12 +4170,12 @@
       "path": "htmlsanitizer/4.0.217",
       "hashPath": "htmlsanitizer.4.0.217.nupkg.sha512"
     },
-    "linq2db/2.9.5": {
+    "linq2db/2.9.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qcfE3jKZFkmaBllKGy9ag6GCt4A6cmJEnva2BirjPUGerpKlf3w8PlWDYF27ZqAiJFhJLSsvzdGuH2a/2GHuGw==",
-      "path": "linq2db/2.9.5",
-      "hashPath": "linq2db.2.9.5.nupkg.sha512"
+      "sha512": "sha512-NvXjBuZmG+8PcMrKcBQXYlFXslCwQyuUpTE+YYmlk8KveSWxglYLn9li/fjK39kUDcP6TGeau+NUJD6+5lSGfg==",
+      "path": "linq2db/2.9.6",
+      "hashPath": "linq2db.2.9.6.nupkg.sha512"
     },
     "linq2db.Identity/2.0.1": {
       "type": "package",
@@ -4688,19 +4688,19 @@
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
     },
-    "NJsonSchema/10.1.4": {
+    "NJsonSchema/10.1.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S0VxxbNYcZCi1RjJ2eB29c1qBhwgH+HfHp2Mn+HEv8Y88UoBHuJPT3ah57sM4FswH861LxOdxbxSd+Vt0hUZ4Q==",
-      "path": "njsonschema/10.1.4",
-      "hashPath": "njsonschema.10.1.4.nupkg.sha512"
+      "sha512": "sha512-8n4FtH2uqxVMz8CKdpE0i62TAzdLnHlpCVZC7heIdKRz5ME3jWTj12INnfzVDv0LOqQKApXbeGqor80aiNxH/g==",
+      "path": "njsonschema/10.1.5",
+      "hashPath": "njsonschema.10.1.5.nupkg.sha512"
     },
-    "Npgsql/4.1.2": {
+    "Npgsql/4.1.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-41Nht/GnC/cRCA/2T9vq5NAv8m24RDp3paRhJCMc8ipOURH6zDZAQFe8mcLq1hAgMkK1Wy8VoRYL/8Op+L6OCg==",
-      "path": "npgsql/4.1.2",
-      "hashPath": "npgsql.4.1.2.nupkg.sha512"
+      "sha512": "sha512-sWTXCb6WPPO7WEw4+1XoRqE49EdWmuyMA15LVbzV6jZgRxYWK8TbdniWMjguzmAgOZVYTmrCf+jsqPYoSqACvA==",
+      "path": "npgsql/4.1.3",
+      "hashPath": "npgsql.4.1.3.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -5414,7 +5414,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "SunEngine.Core/2.5.1": {
+    "SunEngine.Core/2.6.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
