@@ -7,7 +7,6 @@ $link-hover-color: #2472b3;
 
 $header-bg-color: #69da2b;
 $header-title-text-color: white;
-$header-sub-title-text-color: white;
 $header-border-color: #cbcbcb;
 $header-menu-icon-color: white;
 $header-user-color: white;
@@ -148,22 +147,10 @@ $sun-engine-footer-link-color: orange;
 	}
 
 	.layout__title-block {
-	}
-
-	.layout__title {
 		letter-spacing: 1.4px;
 		font-size: 1.6rem;
 		font-weight: bold;
 		color: $header-title-text-color;
-	}
-
-	.layout__sub-title {
-		letter-spacing: 1.4px;
-		font-size: 1rem;
-		font-weight: bold;
-		color: $header-sub-title-text-color;
-		margin-top: -10px;
-		font-variant: all-petite-caps;
 	}
 
 	.main-menu-drawer {
@@ -182,7 +169,7 @@ $sun-engine-footer-link-color: orange;
 	}
 
 	.layout__avatar {
-		width: 32px; 
+		width: 32px;
 		height: 32px;
 		box-shadow: 0px 0px 4px 1.5px white;
 	}
