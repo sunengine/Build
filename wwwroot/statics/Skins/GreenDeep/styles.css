@@ -146,6 +146,11 @@
 .skin-green-deep .side-panel .q-router-link--active .q-item__section--avatar {
   color: black;
 }
+.skin-green-deep .mobile .material__text,
+.skin-green-deep .mobile .post__text,
+.skin-green-deep .mobile .comment__text {
+  text-align: unset !important;
+}
 .skin-green-deep .material__text,
 .skin-green-deep .post__text,
 .skin-green-deep .comment__text {

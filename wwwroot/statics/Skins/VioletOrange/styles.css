@@ -145,6 +145,11 @@
 .skin-violet-orange .side-panel .q-router-link--active .q-item__section--avatar {
   color: white;
 }
+.skin-violet-orange .mobile .material__text,
+.skin-violet-orange .mobile .post__text,
+.skin-violet-orange .mobile .comment__text {
+  text-align: unset !important;
+}
 .skin-violet-orange .material__text,
 .skin-violet-orange .post__text,
 .skin-violet-orange .comment__text {

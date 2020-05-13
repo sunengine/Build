@@ -146,6 +146,11 @@
 .skin-default .side-panel .q-router-link--active .q-item__section--avatar {
   color: black;
 }
+.skin-default .mobile .material__text,
+.skin-default .mobile .post__text,
+.skin-default .mobile .comment__text {
+  text-align: unset !important;
+}
 .skin-default .material__text,
 .skin-default .post__text,
 .skin-default .comment__text {
@@ -199,12 +204,6 @@
   background-color: unset;
   color: unset;
   margin: 0 0 16px 0;
-}
-.skin-default .index-page__header {
-  color: #00acef;
-}
-.skin-default .index-page__info-block-accent {
-  color: #a38167;
 }
 
 /*# sourceMappingURL=styles.css.map */
