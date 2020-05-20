@@ -1,6 +1,5 @@
 server {
   listen 443 ssl;
-  listen [::]:443 ssl ipv6only=on;
   
   ssl_certificate /etc/letsencrypt/live/<host>/fullchain.pem;
   ssl_certificate_key /etc/letsencrypt/live/<host>/privkey.pem;
