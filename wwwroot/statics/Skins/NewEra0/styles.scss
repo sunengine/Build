@@ -60,9 +60,11 @@ $blockquote-bg-color: unset;
 $breadcrumbs-link: #00acc1;
 $breadcrumbs-last: $grey-6;
 
+$index-page-header-color: #00acef;
+$index-page-accent-color: #a38167;
 $sun-engine-footer-link-color: orange;
 
-.skin-default {
+.skin-new-era {
 	// ——— Main ——————————————————————————————————————
 
 	html {
@@ -78,8 +80,8 @@ $sun-engine-footer-link-color: orange;
 			text-decoration: underline;
 		}
 	}
-
-	// ——— Buttons ————————————————————————————————————
+   
+	// ——— Buttons and Breadcrumbs ————————————————————————————————————
 
 	.send-btn {
 		background-color: $send-btn-bg-color;
@@ -119,8 +121,6 @@ $sun-engine-footer-link-color: orange;
 		color: $pagination-text;
 	}
 
-	// ——— Breadcrumbs ———————————————————————————————
-
 	.q-breadcrumbs__el {
 		color: $breadcrumbs-link;
 	}
@@ -132,72 +132,68 @@ $sun-engine-footer-link-color: orange;
 	}
 
 	// ——— Layout ————————————————————————————————————
+	
+	.layout {
+		&__header {
+			border-bottom: 1px solid $header-border-color;
+			background-color: $header-bg-color;
+		}
 
-	.layout__header {
-		border-bottom: 1px solid $header-border-color;
+		&__title-block {
+			letter-spacing: 1.4px;
+			font-size: 1.6rem;
+			font-weight: bold;
+			color: $header-title-text-color;
+		}
+
+		&__toolbar__menu-btn {
+			color: $header-menu-icon-color;
+		}
+
+		&__toolbar__user-btn {
+			color: $header-user-color;
+		}
+
+		&__avatar {
+			width: 32px;
+			height: 32px;
+			box-shadow: 0 0 4px 1.5px white;
+		}
+
+		&__footer {
+			text-align: center;
+			color: $footer-text-color;
+			font-weight: bold;
+			letter-spacing: 1px;
+			background-color: $footer-background-color;
+			padding: 18px 0;
+			border-top: 1px solid $footer-border-color;
+		}
+
+		&__footer-link {
+			color: $footer-link-color;
+		}
+
+		&__footer-line {
+			margin: 12px 0;
+		}
+
+		&__footer-separator-icon {
+			margin: 0 16px;
+			color: $footer-separator-icon-color;
+		}
 	}
-
-	.layout__header {
-		background-color: $header-bg-color;
-	}
-
-	.layout__title-block {
-		letter-spacing: 1.4px;
-		font-size: 1.6rem;
-		font-weight: bold;
-		color: $header-title-text-color;
-	}
-
-	.main-menu-drawer {
-		background-color: $main-menu-bg-color;
-	}
-
-	.side-menu-drawer {
-	}
-
-	.layout__toolbar__menu-btn {
-		color: $header-menu-icon-color;
-	}
-
-	.layout__toolbar__user-btn {
-		color: $header-user-color;
-	}
-
-	.layout__avatar {
-		width: 32px;
-		height: 32px;
-		box-shadow: 0 0 4px 1.5px white;
-	}
-
-	.layout__footer {
-		text-align: center;
-		color: $footer-text-color;
-		font-weight: bold;
-		letter-spacing: 1px;
-		background-color: $footer-background-color;
-		padding: 18px 0;
-		border-top: 1px solid $footer-border-color;
-	}
-
-	.layout__footer-link {
-		color: $footer-link-color;
-	}
-
-	.layout__footer-line {
-		margin: 12px 0;
-	}
-
-	.layout__footer-separator-icon {
-		margin: 0 16px;
-		color: $footer-separator-icon-color;
-	}
-
+	
 	.sun-engine-footer__link {
 		color: $sun-engine-footer-link-color;
 	}
 
-	// ——— Main Menu ——————————————————————————————————
-
+	// ——— Menus ——————————————————————————————————
+	
+	.main-menu-drawer {
+		background-color: $main-menu-bg-color;
+	}
+	
 	.main-menu {
 		.q-router-link--active {
 			background-color: $main-menu-active-link-bg-color;
@@ -230,33 +226,32 @@ $sun-engine-footer-link-color: orange;
 		}
 	}
 
-	// ——— Side Panel ————————————————————————————————————
-
 	.side-menu-drawer {
 		background-color: $side-panel-menu-bg-color;
 	}
 
-	.side-panel__header {
-		text-align: center;
-		margin: 0;
-		padding: 7px 0 4px 0;
-		text-transform: uppercase;
-		font-size: 0.9rem;
-		font-weight: bolder;
-		background-color: $side-panel-header-bg-color;
-		border-bottom: 1px solid #f1f1f1;
-		color: $side-panel-header-text-color;
-	}
-
-	.side-panel__header-link {
-		color: $side-panel-header-link-color;
-	}
-
-	.side-panel__header-icon {
-		color: $side-panel-header-icon-color;
-	}
-
 	.side-panel {
+		&__header {
+			text-align: center;
+			margin: 0;
+			padding: 7px 0 4px 0;
+			text-transform: uppercase;
+			font-size: 0.9rem;
+			font-weight: bolder;
+			background-color: $side-panel-header-bg-color;
+			border-bottom: 1px solid #f1f1f1;
+			color: $side-panel-header-text-color;
+		}
+
+		&__header-link {
+			color: $side-panel-header-link-color;
+		}
+
+		&__header-icon {
+			color: $side-panel-header-icon-color;
+		}
+		
+		
 		.q-router-link--active {
 			background-color: $side-panel-menu-active-link-bg-color;
 
@@ -271,6 +266,7 @@ $sun-engine-footer-link-color: orange;
 	}
 
 	// ——— Material styles ———————————————————————————
+	
 	.mobile {
 		.material__text,
 		.post__text,
